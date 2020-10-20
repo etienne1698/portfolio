@@ -1,0 +1,62 @@
+.avatar {
+    margin: 2rem 0;
+    width: 150px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    .avatar {
+        width: 210px;
+    }
+}
+
+img, figure {
+    height: auto;
+    width: 100%;
+    margin: auto !important;
+}
+
+.navbar {
+    padding-top: 15px;
+}
+.navbar-menu {
+    box-shadow: none;
+}
+
+.box-override .material-icons {
+    font-size: 35px;
+}
+
+.box-override .column:not(:last-child), .passions .column:not(:last-child) {
+    border-bottom: 1px solid #E6ECF8;
+
+}
+
+@media screen and (min-width: 769px) {
+    .box-override .column:not(:last-child), .passions .column:not(:last-child){
+        border-right: 1px solid #E6ECF8;
+        border-bottom: none;
+    }
+}
+
+
+.box-override {
+    margin-top: -14rem;
+}
+.zone-is-override {
+    padding-bottom: 16rem;
+}
+
+section.tools .is-128x128 {
+    height: inherit !important;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    border-left: 1px dashed #E6ECF8;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
