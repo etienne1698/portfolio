@@ -15,7 +15,7 @@ let messageInput = document.getElementById('message-input');
 // contact form
 document.getElementById('send-message').addEventListener('click', async () => {
     try {
-        let response = await window.fetch('http://localhost/portfolio/controllers.php',{
+        let response = await window.fetch('http://localhost/portfolio/index.php',{
             method: "POST",
             body: JSON.stringify({
                 email: emailInput.value,

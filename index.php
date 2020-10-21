@@ -10,8 +10,11 @@ require __DIR__ . '/models/skillgroup.model.php';
 require __DIR__ . '/models/skilltype.model.php';
 require __DIR__ . '/models/passions.model.php';
 require __DIR__ . '/models/achievements.model.php';
+require __DIR__ . '/models/message.model.php';
 
 require __DIR__ . '/models/context.php';
+
+require __DIR__ . '/controllers.php';
 
 require __DIR__ . '/views/default.php';
 
