@@ -10,19 +10,13 @@
                     <div class="buttons">
                         <a href="./?lang=<?php echo Context::getContext()->getLanguage() === 'fr' ? 'en' : 'fr' ?>"
                            class="button"
-                           style="max-width: 50px">
+                           style="max-width: 50px"
+                           data-sal="zoom-in"
+                           data-sal-delay="50">
                             <?php if (Context::getContext()->getLanguage() === 'fr'): ?>
-                                <img src="./assets/img/fr.png"
-                                     alt="fr"
-                                     title="fr"
-                                     data-sal="zoom-in"
-                                     data-sal-delay="50"/>
+                                <img src="./assets/img/fr.png" alt="fr" title="fr"/>
                             <?php else: ?>
-                                <img src="./assets/img/en.png"
-                                     alt="en"
-                                     title="en"
-                                     data-sal="zoom-in"
-                                     data-sal-delay="50"/>
+                                <img src="./assets/img/en.png" alt="en" title="en"/>
                             <?php endif; ?>
                         </a>
                         <a target="_blank"
