@@ -5,7 +5,7 @@
     <title>Etienne ROBERT</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
-    <link rel="stylesheet" href="./assets/bulma.css"/>
+    <link rel="stylesheet" href="./assets/bulma.min.css"/>
     <link rel="stylesheet" href="./js/node_modules/sal.js/dist/sal.css"/>
     <link rel="stylesheet" href="./js/node_modules/notyf/notyf.min.css"/>
     <link rel="stylesheet" href="./style.css"/>
