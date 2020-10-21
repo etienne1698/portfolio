@@ -24,7 +24,7 @@ try {
                 <figure class="image is-3by2"
                         data-sal="zoom-in"
                         data-sal-delay="50">
-                    <img class="" src="img/projects/wfdesignbuild.png">
+                    <img class="" src="">
                 </figure>
             </div>
         </div>

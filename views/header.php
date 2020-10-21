@@ -12,9 +12,17 @@
                            class="button"
                            style="max-width: 50px">
                             <?php if (Context::getContext()->getLanguage() === 'fr'): ?>
-                                <img src="./assets/img/fr.png" alt="fr" title="fr"/>
+                                <img src="./assets/img/fr.png"
+                                     alt="fr"
+                                     title="fr"
+                                     data-sal="zoom-in"
+                                     data-sal-delay="50"/>
                             <?php else: ?>
-                                <img src="./assets/img/en.png" alt="en" title="en"/>
+                                <img src="./assets/img/en.png"
+                                     alt="en"
+                                     title="en"
+                                     data-sal="zoom-in"
+                                     data-sal-delay="50"/>
                             <?php endif; ?>
                         </a>
                         <a target="_blank"
