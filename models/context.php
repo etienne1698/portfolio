@@ -29,7 +29,6 @@ class Context {
                 return $text->{'text_' . $this->getLanguage()};
             }
         }
-        return '<span style="background: red;">'.$key.'</span>';
         return '';
     }
 }

@@ -1,8 +1,8 @@
 <div class="modal" id="contact">
     <div class="modal-background"></div>
     <div class="modal-card">
-        <header class="modal-card-head">
-            <p class="modal-card-title"><?php echo Context::getContext()->translate('contact'); ?></p>
+        <header class="modal-card-head has-background-primary">
+            <p class="modal-card-title has-text-white"><?php echo Context::getContext()->translate('contact'); ?></p>
 
             <button class="delete" data-close="modal" aria-label="close"></button>
         </header>
